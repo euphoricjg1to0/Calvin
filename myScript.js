@@ -50,13 +50,13 @@ const virtualPet = {
         let imageUrl = '';
         switch (this.type) {
             case "Fire Warrior Pokémon":
-                imageUrl = 'images/Fire Warrior Pokémon.png';
+                imageUrl = 'images/img1.png';
                 break;
             case "Fire Blades Pokémon":
-                imageUrl = 'images/Fire Blades Pokémon.png';
+                imageUrl = 'images/img3.png';
                 break;
             default:
-                imageUrl = 'images/Fire Child Pokémon.png';
+                imageUrl = 'images/img2.png';
                 break;
         }
         document.getElementById('petImage').innerHTML = `<img src="${imageUrl}" alt="${this.type}">`;
