@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url('images/cool.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.pet-status {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+
+.pet-image img {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    max-width: 200px;
+    height: auto;
+}
+
+button {                
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: rgb(150, 24, 24);
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    color: yellowgreen;
+    font-size: large;
+}
+
+h1{
+    color: red;
+}
+
+button{
+    color: blueviolet;
+}
